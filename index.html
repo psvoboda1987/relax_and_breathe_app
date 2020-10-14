@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relaxační dýchání</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <a href="index_en.html" id="translate">
+            <img src="img/english.png" alt="english version" title="english version">
+        </a>
+
+        <div id="app" class="maw-600 text-center mx-auto">
+            <header>
+                <h1>Dýchej v klidu</h1>
+                <p>Tato aplikace vám pomůže uvolnit se pomocí dýchacích cvičení</p>
+                <p>Vyberte si variantu</p>
+                <hr>
+            </header>
+
+            <main class="text-center">
+                <section id="screen-calm">
+                    <div class="icon">
+                        <img src="img/moon-regular.svg" alt="Uklidnění">
+                    </div>
+                    <h3 class="blue">Uklidnění</h3>
+                    <p>Ideální na začátek nebo konec dne. Už jen minuta nebo dvě dokáže udělat rozdíl.</p>
+                    <button class="start bg-blue white" data-type="Uklidnění">Start</button>
+                    <hr>
+                </section>
+
+                <section id="screen-focus">
+                    <div class="icon">
+                        <img src="img/sun-solid.svg" alt="Soustředění">
+                    </div>
+                    <h3 class="orange">Soustředění</h3>
+                    <p>Pokud si chcete zlepšit produktivitu nebo se chystáte udělat důležité rozhodnutí.</p>
+                    <button class="start bg-orange white" data-type="Soustředění">Start</button>
+                    <hr>
+                </section>
+
+                <section id="screen-relax">
+                    <div class="icon">
+                        <img src="img/snowflake-regular.svg" alt="Relaxace">
+                    </div>
+                    <h3 class="purple">Relaxace</h3>
+                    <p>Ideální na regeneraci, když si vaše tělo potřebuje odpočinout po sportu nebo náročném dnu.</p>
+                    <button class="start bg-purple white" data-type="Relaxace">Start</button>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
